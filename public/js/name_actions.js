@@ -36,6 +36,7 @@ $(document).ready(function(){
 	});
 
 	$("#view_name").click(function(e){
+		console.log("ok");
 		e.preventDefault();
 		console.log("Before $.ajax");
 		$.ajax({
